@@ -1,0 +1,13 @@
+body{
+  background-color: #df3312;
+}
+
+.blink {
+  animation: blinker 1s step-start infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
